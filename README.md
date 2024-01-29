@@ -175,7 +175,7 @@ A negative correlation is observed between the occurrence of transport issues an
 Given the higher demand for storage in urban areas, it is recommended to consider expanding warehouse facilities in these regions to meet the growing storage requirements.
 
 **Optimize North Storage:**
-Considering the higher capacity in the North and since higher product weight means increased storage issues and warehouse breakdown, it is advisable to assess and optimize the amount of products stored in this region. This may involve redistributing products to achieve a more balanced distribution.
+Considering the higher capacity in the North and since higher product weight means increased storage issues and warehouse breakdown, it is advisable to assess and optimize the amount of products stored in this region. This may involve redistributing products across other zones to achieve a more balanced distribution.
 
 **Equip Warehouses with Temperature Regulators:**
 Enhance the capabilities of warehouses by equipping them with temperature regulators to support the storage of higher amount of products and improve overall operational efficiency.
@@ -189,6 +189,20 @@ These recommendations aim to enhance operational efficiency, address storage nee
 
 ## Next steps and Improvements
 
+**Next Steps:**
 
+**Hyperparameter Tuning:**
+Delve into the fine-tuning of hyperparameters for machine learning models such as Random Forest and SVM. Employ advanced optimization techniques like grid search or randomized search to extract the best possible model configurations.
+
+**Model Ensembles:**
+Investigate the potential benefits of crafting an ensemble model by synergizing the strengths of multiple models. Ensemble methods can elevate overall performance and enhance predictive accuracy.
+
+**Improvements:**
+
+**Feature Selection:**
+Enhance model efficiency by carefully evaluating and reducing the number of features. If certain features prove to be irrelevant, their removal can lead to improved performance, particularly for boosting models.
+
+**Data Quality Enhancement:**
+Elevate the accuracy and representativeness of the dataset by reassessing the strategy for imputing missing values. A meticulous review of the imputation process ensures a more robust and reliable dataset representation.
 
 
