@@ -96,42 +96,58 @@ Training Dataset and Testing Dataset both have 3 columns that contains null vari
 
 ![correlation chart](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/620622fe-3df8-4183-a5c6-a51ded10d004)
 
+
 - **Relationship between Target variables and Features it shows correlation with**
 
 ![1](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/44f0b2fa-fcef-4ed6-8883-d5f0dfd4fb73)
 
 **As the quantity of products stored in warehouses increases, the likelihood of facing storage issues also increases.**
 
+
+
 ![2](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/97f97c0a-5425-4336-aa03-d5b17fb43d13)
 
 **As the product weight increases, the number of breakdowns faced by the warehouse also tends to increase.**
+
+
   
 ![3](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/3d0787aa-ce45-49fe-b277-0aa7327f97c3)
 
 **Warehouses with temperature regulation capabilities tend to have higher average product weights.**
+
+
  
 ![year](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/f65af83d-5974-48ba-b600-8b9344152014)
 
 
 **Recently established warehouses tend to have lower product weights compared to warehouses established in earlier years.**
 
+
+
 ![5](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/27dbd5bd-b8b8-40cc-90de-8b0f517a1bb3)
 
 **Warehouses with fewer reported transport issues tend to have higher average product weights.**
+
+
 
 ![6](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/d2b05d33-18cb-4514-9c67-305685591676)
 
 **Warehouses with higher levels of government approval (e.g., 'A+' or 'A') tend to have higher average product weights compared to warehouses with lower levels of approval.**
 
+
+
 ![7](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/5c715a47-a7cc-4aad-8c62-4e98eb01b59a)
 
 **Warehouses located in urban areas tend to have higher average product weights**
+
+
 
 ![pie](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/c829d806-a844-4d8f-9d61-e778ade92870)
 
 **Majority of the Warehouses are situated in Rural areas.**
 
 **North zone has the highest number of Warehouses.**
+
 
 
 ## Model Evaluation
@@ -149,9 +165,11 @@ Training Dataset and Testing Dataset both have 3 columns that contains null vari
 
 
 
+
 **Best Machine Learning Model**
 
 - **Gradient Boosting Regressor**
+
 
 Evaluation Metrics:
 
@@ -163,6 +181,8 @@ Evaluation Metrics:
 
 
 **Gradient Boosting Regressor is the Best Model. By utilizing this Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
+
+
 
 ## Insights and Recommendations
 
@@ -192,6 +212,8 @@ Warehouses equipped with temperature regulators tend to handle higher product we
     
 A negative correlation is observed between the occurrence of transport issues and the average product weight. Hence, addressing and minimizing transport issues may contribute to an increase in product weight.
 
+
+
 **Recommendations:**
 
 - **Expand Urban Warehouses:**
@@ -210,7 +232,10 @@ Implement measures to reduce transport issues, as this has shown to positively i
 
 These recommendations aim to enhance operational efficiency, address storage needs in high-demand areas, and ensure a more equitable distribution of products across geographical zones, while also optimizing warehouse capabilities based on observed correlations.
 
+
+
 ## Next steps and Improvements
+
 
 **Next Steps:**
 
@@ -219,6 +244,8 @@ Delve into the fine-tuning of hyperparameters for machine learning models such a
 
 - **Model Ensembles:**
 Investigate the potential benefits of crafting an ensemble model by synergizing the strengths of multiple models. Ensemble methods can elevate overall performance and enhance predictive accuracy.
+
+
 
 **Improvements:**
 
