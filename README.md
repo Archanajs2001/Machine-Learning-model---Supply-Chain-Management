@@ -1,4 +1,4 @@
-# Supply-Chain-Management
+# Supply Chain Management
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
   
 ## Introduction
 
-In response to observed mismatches between demand and supply within our Fast Moving Consumer Goods (FMCG) company's instant noodles business, a comprehensive data analysis has been conducted over the past two years. This initiative is driven by the necessity to optimize supply quantity, thereby mitigating excess inventory costs and enhancing operational efficiency.
+In response to observed mismatches between demand and supply within a Fast Moving Consumer Goods (FMCG) company's instant noodles business, a comprehensive data analysis has been conducted over the past two years. This initiative is driven by the necessity to optimize supply quantity, thereby enhancing operational efficiency.
 
 The primary objective of this analysis is to harness historical data, unveiling patterns and insights that will inform strategic decision-making. By building predictive models, we aim to determine the optimum product shipment weight from each warehouse, aligning our supply with actual demand.
 
@@ -56,8 +56,8 @@ The datasets are included in this repository for referance.
 
 1. **Handling Null Values**
 
-Training Dataset have 3 columns that contains null variables
-Testing Dataset have 2 columns that contains null variables 
+Training Dataset have 3 columns that contains null variables and Testing Dataset have 2 columns that contains null variables.
+
    - **Method of Handling:**
      
      **workers_num**
@@ -88,14 +88,15 @@ Testing Dataset have 2 columns that contains null variables
 
 4. **Feature Scaling**
    - Standardize features by removing the mean and scaling to unit variance using Standard Scaling.
-   - 
+
+     
 ## Exploratory Data Analysis
 
 - **Correlation between Target and Feature variables**
 
 ![correlation chart](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/620622fe-3df8-4183-a5c6-a51ded10d004)
 
-- **Relationship between Target variables and features it shows correlation with**
+- **Relationship between Target variables and Features it shows correlation with**
 
 ![1](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/44f0b2fa-fcef-4ed6-8883-d5f0dfd4fb73)
 
@@ -129,6 +130,7 @@ Testing Dataset have 2 columns that contains null variables
 ![pie](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/c829d806-a844-4d8f-9d61-e778ade92870)
 
 **Majority of the Warehouses are situated in Rural areas.**
+
 **North zone has the highest number of Warehouses.**
 
 
@@ -142,37 +144,38 @@ Testing Dataset have 2 columns that contains null variables
 
 ![charts](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/e9ddbc17-4fdf-4121-b09a-c5d820b1b4a8)
 
+**Gradient Boosting Regressor is the Best Model. By Utilizing tis Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
 
 ## Insights and Recommendations
 
-1. Warehouses in the North:
+1. **Warehouses in the North:**
    
 Warehouses located in the North exhibit a higher storage capacity, leading to a larger volume of stored products.
 
-2. Product Weight and Operational Challenges:
+2. **Product Weight and Operational Challenges:**
    
 There is a correlation between higher product weights and increased occurrences of storage issues and warehouse breakdowns, indicating a need for strategic management of heavier products.
 
-3. Distribution Across Areas:
+3. **Distribution Across Areas:**
    
-Rural areas host the majority, accounting for over 90% of the warehouses.
+Rural areas host the majority of warehouses, accounting for over 90% of the warehouses.
 
-4. Product Storage Discrepancy:
+4. **Product Storage Discrepancy:**
    
 Despite the predominance of warehouses in rural areas, urban warehouses store a larger quantity of products. This suggests a potential disparity in the distribution of products across different geographical areas.
 
-5. Temperature Regulator Influence:
+5. **Temperature Regulator Influence:**
     
 Warehouses equipped with temperature regulators tend to handle higher product weights. Therefore, it is recommended to consider equipping more warehouses with temperature-regulating facilities.
 
-6. Transport Issues and Product Weight:
+6. **Transport Issues and Product Weight:**
     
 A negative correlation is observed between the occurrence of transport issues and the average product weight. Hence, addressing and minimizing transport issues may contribute to an increase in product weight.
 
 **Recommendations:**
 
 **Expand Urban Warehouses:**
-Given the higher demand for storage in urban areas, it is recommended to consider expanding warehouse facilities in these regions to meet the growing storage requirements.
+Given the higher demand for storage in urban areas, it is recommended to consider expanding warehouse facilities in these regions to meet the growing storage requirements resulting in a more balanced distribution across both rural and urban areas.
 
 **Optimize North Storage:**
 Considering the higher capacity in the North and since higher product weight means increased storage issues and warehouse breakdown, it is advisable to assess and optimize the amount of products stored in this region. This may involve redistributing products across other zones to achieve a more balanced distribution.
@@ -191,18 +194,20 @@ These recommendations aim to enhance operational efficiency, address storage nee
 
 **Next Steps:**
 
-**Hyperparameter Tuning:**
+- **Hyperparameter Tuning:**
 Delve into the fine-tuning of hyperparameters for machine learning models such as Random Forest and SVM. Employ advanced optimization techniques like grid search or randomized search to extract the best possible model configurations.
 
-**Model Ensembles:**
+- **Model Ensembles:**
 Investigate the potential benefits of crafting an ensemble model by synergizing the strengths of multiple models. Ensemble methods can elevate overall performance and enhance predictive accuracy.
 
 **Improvements:**
 
-**Feature Selection:**
+- **Feature Selection:**
 Enhance model efficiency by carefully evaluating and reducing the number of features. If certain features prove to be irrelevant, their removal can lead to improved performance, particularly for boosting models.
 
-**Data Quality Enhancement:**
-Elevate the accuracy and representativeness of the dataset by reassessing the strategy for imputing missing values. A meticulous review of the imputation process ensures a more robust and reliable dataset representation.
+- **Data Quality Enhancement:**
+Elevate the performance and representativeness of the dataset by reassessing the strategy for imputing missing values. A meticulous review of the imputation process ensures a more robust and reliable dataset representation.
 
 
+Thank you for your attention. If you have any further questions or require additional insights, please do not hesitate to reach out.
+Contact Info: archanaganga585@gmail.com
