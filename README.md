@@ -87,7 +87,7 @@ Training Dataset and Testing Dataset both have 3 columns that contains null vari
    - Transformed Categorical variables into Numerical format using Label Encoding.
 
 4. **Feature Scaling**
-   - Standardize features by removing the mean and scaling to unit variance using Standard Scaling.
+   - Standardized features by removing the mean and scaling to unit variance using Standard Scaling.
 
      
 ## Exploratory Data Analysis
@@ -149,9 +149,20 @@ Training Dataset and Testing Dataset both have 3 columns that contains null vari
 
 
 
+**Best Machine Learning Model**
+
+- **Gradient Boosting Regressor**
+
+Evaluation Metrics:
+
+- **R2 Score : 0.994199**
+
+- **Mean Absolute Values : 0.058168**
+
+- **Root Mean Squared Value : 0.076167**
 
 
-**Gradient Boosting Regressor is the Best Model. By Utilizing this Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
+**Gradient Boosting Regressor is the Best Model. By utilizing this Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
 
 ## Insights and Recommendations
 
