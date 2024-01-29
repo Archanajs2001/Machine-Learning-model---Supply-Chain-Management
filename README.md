@@ -148,6 +148,8 @@ Training Dataset have 3 columns that contains null variables and Testing Dataset
 
 ## Insights and Recommendations
 
+**Insights:**
+
 1. **Warehouses in the North:**
    
 Warehouses located in the North exhibit a higher storage capacity, leading to a larger volume of stored products.
@@ -174,16 +176,16 @@ A negative correlation is observed between the occurrence of transport issues an
 
 **Recommendations:**
 
-**Expand Urban Warehouses:**
+- **Expand Urban Warehouses:**
 Given the higher demand for storage in urban areas, it is recommended to consider expanding warehouse facilities in these regions to meet the growing storage requirements resulting in a more balanced distribution across both rural and urban areas.
 
-**Optimize North Storage:**
+- **Optimize North Storage:**
 Considering the higher capacity in the North and since higher product weight means increased storage issues and warehouse breakdown, it is advisable to assess and optimize the amount of products stored in this region. This may involve redistributing products across other zones to achieve a more balanced distribution.
 
-**Equip Warehouses with Temperature Regulators:**
+- **Equip Warehouses with Temperature Regulators:**
 Enhance the capabilities of warehouses by equipping them with temperature regulators to support the storage of higher amount of products and improve overall operational efficiency.
 
-**Mitigate Transport Issues:**
+- **Mitigate Transport Issues:**
 Implement measures to reduce transport issues, as this has shown to positively impact the average product weight. This may involve improving transport infrastructure, logistics, or optimizing supply chain processes.
 
 
