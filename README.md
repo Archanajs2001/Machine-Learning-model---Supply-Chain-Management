@@ -144,7 +144,7 @@ Training Dataset have 3 columns that contains null variables and Testing Dataset
 
 ![charts](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/e9ddbc17-4fdf-4121-b09a-c5d820b1b4a8)
 
-**Gradient Boosting Regressor is the Best Model. By Utilizing tis Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
+**Gradient Boosting Regressor is the Best Model. By Utilizing this Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
 
 ## Insights and Recommendations
 
