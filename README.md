@@ -174,7 +174,7 @@ Warehouses located in the North exhibit a higher storage capacity, leading to a 
 
 2. **Product Weight and Operational Challenges:**
    
-There is a correlation between higher product weights and increased occurrences of storage issues and warehouse breakdowns, indicating a need for strategic management of heavier products.
+There is a correlation between higher product weights and increased occurrences of storage issues and warehouse breakdowns, indicating a need for strategic management of higher amount of products.
 
 3. **Distribution Across Areas:**
    
