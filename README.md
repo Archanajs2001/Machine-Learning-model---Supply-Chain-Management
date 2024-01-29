@@ -166,7 +166,7 @@ Despite the predominance of warehouses in rural areas, urban warehouses store a 
 
 5. **Temperature Regulator Influence:**
     
-Warehouses equipped with temperature regulators tend to handle higher product weights. Therefore, it is recommended to consider equipping more warehouses with temperature-regulating facilities.
+Warehouses equipped with temperature regulators tend to handle higher product weights. But majority of warehouses are not equipped with one. Therefore, it is recommended to consider equipping more warehouses with temperature-regulating facilities.
 
 6. **Transport Issues and Product Weight:**
     
