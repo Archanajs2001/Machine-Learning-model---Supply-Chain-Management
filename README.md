@@ -138,7 +138,7 @@ Training Dataset and Testing Dataset both have 3 columns that contains null vari
 
 - **Metrics**
 
-![image](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/dfc84085-3e66-4e29-95fd-3eed076edba0)
+![image](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/75407475-df91-4053-bcde-436074d88552)
 
 
 
