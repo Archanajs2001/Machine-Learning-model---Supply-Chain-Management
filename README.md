@@ -56,7 +56,7 @@ The datasets are included in this repository for referance.
 
 1. **Handling Null Values**
 
-Training Dataset have 3 columns that contains null variables and Testing Dataset have 2 columns that contains null variables.
+Training Dataset and Testing Dataset both have 3 columns that contains null variables.
 
    - **Method of Handling:**
      
@@ -138,11 +138,13 @@ Training Dataset have 3 columns that contains null variables and Testing Dataset
 
 - **Metrics**
 
-![image](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/a3b9f51f-e6c7-447a-8823-fb348a7e2c5f)
+![image](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/e0a19963-f7f7-403d-9ef6-7bd50c208acc)
+
 
 - **Charts**
 
-![charts](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/e9ddbc17-4fdf-4121-b09a-c5d820b1b4a8)
+![charts final](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/59d3c4a3-c827-4436-afa0-471bfe782683)
+
 
 **Gradient Boosting Regressor is the Best Model. By Utilizing this Machine Learning Model, we can make highly accurate predictions making it the preferred and most effective machine learning model for our task.**
 
