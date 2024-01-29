@@ -2,19 +2,21 @@
 
 ## Table of Contents
 
-- [Data Cleaning](#data-cleaning)
-- [Data Transformation in Power BI](#data-transformation-in-power-bi)
-- [Visualizations](#visualizations)
-- [Slicers](#slicers)
-- [Instructions](#instructions)
-- 
+- [Introduction](#introduction)
+- [Data Overview](#data-overview)
+- [Data Processing](#data-processing)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Model Evaluation](#model-evaluation)
+- [Insights and Recommendations](#insights-and-recommendations)
+- [Next Steps and Improvements](#next-steps-and-improvements)
+  
 ## Introduction
 
 In response to observed mismatches between demand and supply within our Fast Moving Consumer Goods (FMCG) company's instant noodles business, a comprehensive data analysis has been conducted over the past two years. This initiative is driven by the necessity to optimize supply quantity, thereby mitigating excess inventory costs and enhancing operational efficiency.
 
 The primary objective of this analysis is to harness historical data, unveiling patterns and insights that will inform strategic decision-making. By building predictive models, we aim to determine the optimum product shipment weight from each warehouse, aligning our supply with actual demand.
 
-Throughout this exploration, we have delved into key aspects of the data, conducting an in-depth Exploratory Data Analysis (EDA) and developing machine learning models. The outcomes provide actionable recommendations and lay the groundwork for a more streamlined and efficient supply chain. 
+Throughout this exploration, we have delved into key aspects of the data, conducting an in-depth Exploratory Data Analysis (EDA) and developing Machine Learning models. The outcomes provide actionable recommendations and lay the groundwork for a more streamlined and efficient supply chain. 
 
 
 ## Data Overview
@@ -87,7 +89,7 @@ Testing Dataset have 2 columns that contains null variables
 4. **Feature Scaling**
    - Standardize features by removing the mean and scaling to unit variance using Standard Scaling.
    - 
-## Visualizations
+## Exploratory Data Analysis
 
 - **Correlation between Target and Feature variables**
 
@@ -130,7 +132,7 @@ Testing Dataset have 2 columns that contains null variables
 **North zone has the highest number of Warehouses.**
 
 
-## Machine Learning Model Evaluation
+## Model Evaluation
 
 - **Metrics**
 
