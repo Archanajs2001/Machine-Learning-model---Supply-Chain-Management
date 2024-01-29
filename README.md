@@ -131,13 +131,13 @@ Testing Dataset have 2 columns that contains null variables
 
 ## Machine Learning Model Evaluation
 
-**Metrics**
+- **Metrics**
 
 ![image](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/a3b9f51f-e6c7-447a-8823-fb348a7e2c5f)
 
-**Charts**
+- **Charts**
 
-![charts](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/dbc5e206-8b03-48dc-8b0b-283cb784e8f2)
+![charts](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/e9ddbc17-4fdf-4121-b09a-c5d820b1b4a8)
 
 
 
