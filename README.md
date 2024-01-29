@@ -57,21 +57,22 @@ The datasets are included in this repository for referance.
 Training Dataset have 3 columns that contains null variables
 Testing Dataset have 2 columns that contains null variables 
    - **Method of Handling:**
-     **- workers_num**
+     
+     **workers_num**
        - Imputed null values with median.
 
      Reason:
      - After observing distribution, the data was seen to be slightly positively skewed.
      - Data contains numerical values.
 
-     **- wh_est_year**
+     **wh_est_year**
        - Imputed null values with mode.
 
-     Reason:
-     - Decided to replace null variables eventhough almost half the data contains null values since the column have correlation with Product weight(target variable).
-     - Data contains numerical values.
+      Reason:
+      - Decided to replace null variables eventhough almost half the data contains null values since the column have correlation with Product weight(target variable).
+      - Data contains numerical values.
 
-     **- approved_wh_govt_certificate**
+     **approved_wh_govt_certificate**
        - Imputed null values with mode.
 
      Reason:
@@ -140,8 +141,51 @@ Testing Dataset have 2 columns that contains null variables
 ![charts](https://github.com/Archanajs2001/Machine-Learning-model---Supply-Chain-Management/assets/154094021/e9ddbc17-4fdf-4121-b09a-c5d820b1b4a8)
 
 
+## Insights and Recommendations
+
+1. Warehouses in the North:
+   
+Warehouses located in the North exhibit a higher storage capacity, leading to a larger volume of stored products.
+
+2. Product Weight and Operational Challenges:
+   
+There is a correlation between higher product weights and increased occurrences of storage issues and warehouse breakdowns, indicating a need for strategic management of heavier products.
+
+3. Distribution Across Areas:
+   
+Rural areas host the majority, accounting for over 90% of the warehouses.
+
+4. Product Storage Discrepancy:
+   
+Despite the predominance of warehouses in rural areas, urban warehouses store a larger quantity of products. This suggests a potential disparity in the distribution of products across different geographical areas.
+
+5. Temperature Regulator Influence:
+    
+Warehouses equipped with temperature regulators tend to handle higher product weights. Therefore, it is recommended to consider equipping more warehouses with temperature-regulating facilities.
+
+6. Transport Issues and Product Weight:
+    
+A negative correlation is observed between the occurrence of transport issues and the average product weight. Hence, addressing and minimizing transport issues may contribute to an increase in product weight.
+
+**Recommendations:**
+
+**Expand Urban Warehouses:**
+Given the higher demand for storage in urban areas, it is recommended to consider expanding warehouse facilities in these regions to meet the growing storage requirements.
+
+**Optimize North Storage:**
+Considering the higher capacity in the North and since higher product weight means increased storage issues and warehouse breakdown, it is advisable to assess and optimize the amount of products stored in this region. This may involve redistributing products to achieve a more balanced distribution.
+
+**Equip Warehouses with Temperature Regulators:**
+Enhance the capabilities of warehouses by equipping them with temperature regulators to support the storage of higher amount of products and improve overall operational efficiency.
+
+**Mitigate Transport Issues:**
+Implement measures to reduce transport issues, as this has shown to positively impact the average product weight. This may involve improving transport infrastructure, logistics, or optimizing supply chain processes.
 
 
+
+These recommendations aim to enhance operational efficiency, address storage needs in high-demand areas, and ensure a more equitable distribution of products across geographical zones, while also optimizing warehouse capabilities based on observed correlations.
+
+## Next steps and Improvements
 
 
 
