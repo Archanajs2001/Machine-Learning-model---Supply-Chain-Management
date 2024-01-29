@@ -175,7 +175,7 @@ Evaluation Metrics:
 
 - **R2 Score : 0.994199**
 
-- **Mean Absolute Values : 0.058168**
+- **Mean Absolute Value : 0.058168**
 
 - **Root Mean Squared Value : 0.076167**
 
